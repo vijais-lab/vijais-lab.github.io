@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<title>
+		</title>
+		<style>
+			body { font-family:Calibri; font-size:12pt }
+			p { margin:0pt }
+@media (max-width: 900px) { 
+img { 
+   max-width: 100%;
+   height: auto;
+}
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+}	
+
+
+		</style>
+	</head>
+	<body>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;!DOCTYPE html&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;html lang="en"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;head&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;meta charset="UTF-8" /&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;title&gt;TechEaseElectronics&lt;/title&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;style&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">body {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-family: Arial, sans-serif;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin: 0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">padding: 0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">background: #f4f4f4;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color: #333;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">header {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">background-color: #002244;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color: white;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">padding: 20px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">text-align: center;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">nav {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">background: #003366;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">display: flex;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">justify-content: center;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">padding: 10px 0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">nav a {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color: white;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">text-decoration: none;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin: 0 20px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">font-weight: bold;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.hero {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">padding: 50px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">text-align: center;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">background: #e0e0e0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.hero h2 {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin-bottom: 10px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.products {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">display: flex;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">flex-wrap: wrap;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">justify-content: center;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">gap: 20px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">padding: 40px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.product {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">background: white;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">border: 1px solid #ddd;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">border-radius: 8px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">width: 250px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">padding: 20px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">text-align: center;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">box-shadow: 0 0 10px rgba(0,0,0,0.05);</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.product img {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">width: 100%;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">height: auto;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">border-radius: 4px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">.product h3 {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin: 15px 0 10px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">footer {</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">background-color: #002244;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">color: white;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">text-align: center;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">padding: 15px 0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">margin-top: 40px;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">}</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/style&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;/head&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;body&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;header&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;h1&gt;TechEaseElectronics&lt;/h1&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p&gt;Your trusted source for quality electronics&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/header&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;nav&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;a href="#"&gt;Home&lt;/a&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;a href="#"&gt;Products&lt;/a&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;a href="#"&gt;Support&lt;/a&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;a href="#"&gt;Contact&lt;/a&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/nav&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;section class="hero"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;h2&gt;Welcome to TechEaseElectronics&lt;/h2&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p&gt;Explore our wide range of electronics built for everyday ease.&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/section&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;section class="products"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;div class="product"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;img src="https://via.placeholder.com/250x150?text=Headphones" alt="Headphones"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;h3&gt;Wireless Headphones&lt;/h3&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p&gt;Experience top-quality sound with noise cancellation.&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;/div&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;div class="product"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;img src="https://via.placeholder.com/250x150?text=Laptop" alt="Laptop"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;h3&gt;Smart Laptops&lt;/h3&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p&gt;Performance and portability redefined for professionals.&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;/div&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;div class="product"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;img src="https://via.placeholder.com/250x150?text=Router" alt="Router"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;h3&gt;High-Speed Routers&lt;/h3&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p&gt;Stable, fast, and secure internet for your home or office.&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;/div&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;div class="product"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;img src="https://via.placeholder.com/250x150?text=Speakers" alt="Speakers"&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;h3&gt;Bluetooth Speakers&lt;/h3&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p&gt;Powerful sound in a compact and portable design.&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;/div&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/section&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;footer&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;&#xa0;&#xa0; </span><span style="font-family:Helvetica">&lt;p&gt;© 2025 TechEaseElectronics. All rights reserved.&lt;/p&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0; </span><span style="font-family:Helvetica">&lt;/footer&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&#xa0;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;/body&gt;</span>
+			</p>
+			<p style="widows:0; orphans:0">
+				<span style="font-family:Helvetica">&lt;/html&gt;</span>
+			</p>
+	<p style="bottom: 10px; right: 10px; position: absolute;"><a href="https://wordtohtml.net" target="_blank" style="font-size:11px; color: #d0d0d0">Converted to HTML with WordToHTML.net</a></p>
+</body>
+</html>
